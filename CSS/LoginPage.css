@@ -61,8 +61,8 @@ text-decoration: none;
 
 button {
 	border-radius: 20px;
-	border: 1px solid rgb(97, 2, 97);
-	background-color: rgb(97, 2, 97);
+	border: 1px solid #3c4f7b;
+	background-color: #3c4f7b;
 	color: #FFFFFF;
 	font-size: 12px;
 	font-weight: bold;
@@ -72,7 +72,7 @@ button {
 	/* transition: transform 80ms ease-in; */
 }
 button:hover{
-	background-color: rgb(81, 2, 81);
+	background-color: #212e6e;
 	color: #FFFFFF;
 	transform: scale(0.97);
 
@@ -201,8 +201,8 @@ input {
 }
 .overlay {
 	background: rgb(97, 2, 97);
-	background: -webkit-linear-gradient(to right,rgb(97, 2, 97), #880808, rgb(97, 2, 97));
-	background: linear-gradient(to right, #880808,rgb(97, 2, 97));
+	background: -webkit-linear-gradient(to right,#212e6e, #880808, #212e6e);
+	background: linear-gradient(to right,#212e6e,#212e6e, #9a4d4d,#212e6e,#212e6e);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: 0 0;
