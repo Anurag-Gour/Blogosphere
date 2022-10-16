@@ -15,12 +15,15 @@ a{
   
 }
 
+.navbar-nav{
+    margin-left: 32em;
+}
 
 
 .nav-item a:after{
     content: "";
     position: absolute;
-    background-color: rgb(216, 24, 24);
+    background-color: #212e6e;
     height: 4px;
     width: 0;
     left: 0;
@@ -31,7 +34,7 @@ a{
 .nav-link .active a:after{
     content: "";
     position: absolute;
-    background-color: rgb(216, 24, 24);
+    background-color: #212e6e;
     height: 4px;
     width: 100%;
     left: 0;
@@ -108,6 +111,13 @@ position: fixed;
     position: fixed;
 } */
 
+.content{
+    margin-left: 5em;
+    margin-right: 8em;
+}
+
+
+
 footer {
     background-color: #222;
     color: #fff;
@@ -134,8 +144,8 @@ footer a {
 }
 button {
 	border-radius: 20px;
-	border: 1px solid #8758FF;
-	background-color: #8758FF;
+	border: 1px solid #3c4f7b;
+	background-color: #3c4f7b;
 	color: #FFFFFF;
 	font-size: 12px;
 	font-weight: bold;
@@ -145,7 +155,7 @@ button {
 	/* transition: transform 80ms ease-in; */
 }
 button:hover{
-	background-color: rgb(81, 2, 81);
+	background-color: #212e6e;
 	color: #FFFFFF;
 	transform: scale(0.97);
 
