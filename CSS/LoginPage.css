@@ -200,8 +200,8 @@ input {
 	transform: translateX(-100%);
 }
 .overlay {
-	background: rgb(97, 2, 97);
-	background: -webkit-linear-gradient(to right,#212e6e, #880808, #212e6e);
+	background: #212e6e,;
+	background: -webkit-linear-gradient(to right,#212e6e, #9a4d4d, #212e6e);
 	background: linear-gradient(to right,#212e6e,#212e6e, #9a4d4d,#212e6e,#212e6e);
 	background-repeat: no-repeat;
 	background-size: cover;
