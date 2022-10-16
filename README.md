@@ -1,4 +1,4 @@
 # Blogosphere
  SGP
 
--- Deep joined 
+-- Deep joined.
