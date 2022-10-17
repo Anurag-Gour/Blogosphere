@@ -197,5 +197,8 @@ nav button:focus {
        width: 100%;
         z-index: 1000;
     }
+    .navbar-nav{
+        margin-left: 0em;
+    }
 
 }
