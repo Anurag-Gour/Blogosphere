@@ -101,7 +101,12 @@ body {
 
 @media only screen and (max-width: 768px) {
     .swiper {
-        height: calc(var(--swiper-mobile-width) * var(--swiper-image-ratio) / 100%);
+        /* height: calc(var(--swiper-mobile-width) * var(--swiper-image-ratio) / 100%); */
+        height: 60%;
+    }
+
+    .Bologo-slider{
+        height: 70%;
     }
 
     .swiper-slide {

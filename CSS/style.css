@@ -16,6 +16,11 @@ a{
   
 }
 
+.dropdown:hover .dropdown-menu {
+    display: block;
+    top: 100%;
+}
+
 .navbar-nav{
     margin-left: 645px;
 }
