@@ -6,20 +6,20 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>BLOGOSPHERE</title>
-<!-- Bootstrap CSS -->
+    <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<!-- Our main CSS -->
+    <!-- Our main CSS -->
     <link rel="stylesheet" href="CSS/style.css">
-<!-- css for animation -->
+    <!-- css for animation -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 
 </head>
 
 <body>
-<!-- This is a navigation bar of our website -->
+    <!-- This is a navigation bar of our website -->
     <nav>
         <div class="row">
             <div class="col-1"><img src="IMG/BLOGOSPHERE .png" height="62" width="62">
@@ -34,18 +34,33 @@
                             <span class="navbar-toggler-icon"></span>
                         </button>
                         <div class="collapse navbar-collapse " id="navbarSupportedContent">
-                            <ul class="navbar-nav mb-3 mb-lg-0" style="font-size: 20px;">
+                            <ul class="navbar-nav  mb-3 mb-lg-0" style="font-size: 20px;">
                                 <li class="nav-item mx-2">
-                                    <a class="nav-link" aria-current="page" href="HOME.html">Home</a>
+                                    <a class="nav-link active" aria-current="page" href="UserHome.html">Home</a>
                                 </li>
                                 <li class="nav-item mx-2">
-                                    <a class="nav-link active" href="#">About</a>
+                                    <a class="nav-link" href="about.html">About</a>
                                 </li>
                                 <li class="nav-item mx-2">
-                                    <a class="nav-link" href="#">Contact-Us</a>
+                                    <a class="nav-link" href="contact.html">Contact-Us</a>
                                 </li>
-                                <li class="nav-item mx-2">
-                                    <a class="nav-link" href="#">About</a>
+                                <li class="nav-item1 dropdown">
+                                    <a class="nav-link " href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Categories
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Food</a></li>
+                                        <li><a class="dropdown-item" href="#">Nature</a></li>
+                                        <li><a class="dropdown-item" href="#">Fashion</a></li>
+                                        <li><a class="dropdown-item" href="#">Travel</a></li>
+                                        <li><a class="dropdown-item" href="#">Business</a></li>
+                                        <li><a class="dropdown-item" href="#">Lifestyle</a></li>
+                                        <li><a class="dropdown-item" href="#">Technology</a></li>
+                                        <li><a class="dropdown-item" href="#">Health</a></li>
+                                        <li>
+
+                                    </ul>
                                 </li>
                             </ul>
                         </div>
@@ -59,7 +74,7 @@
         </div>
     </nav>
 
-<!-- This is main content -->
+    <!-- This is main content -->
     <div class="container">
         <div class="row featurette my-5 m-auto">
             <div class="col-md-7 m-auto" data-aos="fade-right" data-aos-offset="200" data-aos-delay="500"
@@ -67,7 +82,9 @@
                 <h1 class="featurette-heading fw-normal lh-1">OUR
                     PROJECT
                 </h1>
-                <p class="lead">Blogosphere is a blogging website that gives users a better experience for reading and writing blogs and provides multiple features like categorised blogs , filtered blogs, and dark and light themes for reading with an amazing interface that gives users an incredible experience.
+                <p class="lead">Blogosphere is a blogging website that gives users a better experience for reading and
+                    writing blogs and provides multiple features like categorised blogs , filtered blogs, and dark and
+                    light themes for reading with an amazing interface that gives users an incredible experience.
                 </p>
             </div>
             <div class="col-md-5 m-auto" data-aos="fade-left" data-aos-offset="200" data-aos-delay="600"
@@ -77,8 +94,8 @@
             </div>
         </div>
         <div class="row featurette m-auto">
-            <div class="col-md-7 order-md-2 my-auto mx-0" data-aos="fade-left" data-aos-offset="100" data-aos-delay="800"
-                data-aos-easing="ease-in-sine" width="100" height="100">
+            <div class="col-md-7 order-md-2 my-auto mx-0" data-aos="fade-left" data-aos-offset="100"
+                data-aos-delay="800" data-aos-easing="ease-in-sine" width="100" height="100">
                 <h2 class="featurette-heading fw-normal lh-1">Oh yeah, it’s that good. <span class="text-muted">See for
                         yourself.</span></h2>
                 <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of how
@@ -121,17 +138,63 @@
         </div>
 
         <footer>
-            <p>
-                Created with <i class="fa fa-heart"></i> by BLOGOSPHERE
-                - Click to know about us
-                <a target="_blank" href="">here</a>.
-            </p>
+            <div class="content">
+                <div class="top">
+                    <div class="logo-details">
+                        <span class="logo_name"> <img src="IMG/BLOGOSPHERE .png" height="75px"> BLOGOSPHERE </span>
+                    </div>
+
+                </div>
+                <div class="link-boxes">
+                    <ul class="box">
+                        <li class="link_name" id="foot1">Links</li>
+                        <li><a href="UserHome.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+
+                    </ul>
+                    <ul class="box">
+                        <li class="link_name" id="foot2">Categories</li>
+                        <li><a href="#">Food</a></li>
+                        <li><a href="#">Travel</a></li>
+                        <li><a href="#">Health</a></li>
+                        <li><a href="#">Business</a></li>
+                        <li><a href="#">Lifestyle</a></li>
+
+
+                    </ul>
+                    <ul class="box">
+                        <li class="link_name" id="foot3">Legal Info</li>
+                        <li><a href="#">Licence</a></li>
+                        <li><a href="#">Terms and Conditions</a></li>
+                        <li><a href="#">Privacy Policies</a></li>
+
+                    </ul>
+                    <ul class="box">
+                        <li class="link_name" id="foot4">Contact</li>
+                        <li><a target="on_blank" href="tel:+919079680135">+91 9876543210</a></li>
+                        <li><a target="on_blank" href="mailto:'connectpicoindia@gmail.com'">
+                                put_our_email_here@gmail.com</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <hr style="border-color: white ;">
+            <div id="copyright">
+                <h1 id="copyright1">
+                    <p>
+                        Created with <i class="fa fa-heart"></i> by BLOGOSPHERE
+                        - Click to know about us
+                        <a target="_blank" href="">here</a>.
+                    </p>
+                </h1>
+            </div>
         </footer>
-<!-- Bootstrap javaScript -->
+        <!-- Bootstrap javaScript -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
             crossorigin="anonymous"></script>
-<!-- Script for animation -->
+        <!-- Script for animation -->
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <script>
             AOS.init();

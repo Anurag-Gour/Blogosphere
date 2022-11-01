@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AddBlog</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet"
+        href="https://cdn.rawgit.com/bootstrap-wysiwyg/bootstrap3-wysiwyg/master/src/bootstrap3-wysihtml5.css">
+    <link rel="stylesheet" href="CSS/style.css">
+
+    <style>
+        .btn-file {
+            position: relative;
+            overflow: hidden;
+        }
+
+        .container {
+            padding-top: 20px;
+        }
+
+        label {
+            font-size: 30px;
+        }
+
+        .btn {
+            border-radius: 20px;
+            border: 1px solid #3c4f7b;
+            background-color: #3c4f7b;
+            color: #FFFFFF;
+            font-size: 15xpx;
+            font-weight: bold;
+            /* padding: 12px 45px; */
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            /* transition: transform 80ms ease-in; */
+        }
+
+        .btn:hover {
+            background-color: #212e6e;
+            color: #FFFFFF;
+            transform: scale(0.97);
+
+        }
+
+        footer {
+            width: 100%;
+        }
+        
+    </style>
+</head>
+
+<body>
+
+    <div class="row">
+        <div class="container">
+            <div class="col-md-12">
+                <form method="post" role="form">
+                    <div class="form-group ">
+                        <label> Title Of Blog</label>
+                        <div class="form-group">
+                            <input type="text" class="form-control" name="title" placeholder="Title" />
+                        </div>
+
+                        <div class="form-group">
+                            <textarea class="form-control bcontent" name="content" cols="60" rows="20"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <type type="submit" name="Submit" value="Submit" class="btn btn-primary form-control" /><a
+                                href="UserHome.html" style="color: #fff;">
+                                Submit</a>
+                        </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="content">
+            <div class="top">
+                <div class="logo-details">
+                    <span class="logo_name"> <img src="IMG/BLOGOSPHERE .png" height="75px"> BLOGOSPHERE </span>
+                </div>
+
+            </div>
+            <div class="link-boxes">
+                <ul class="box">
+                    <li class="link_name" id="foot1">Links</li>
+                    <li><a href="UserHome.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+
+                </ul>
+                <ul class="box">
+                    <li class="link_name" id="foot2">Categories</li>
+                    <li><a href="#">Food</a></li>
+                    <li><a href="#">Travel</a></li>
+                    <li><a href="#">Health</a></li>
+                    <li><a href="#">Business</a></li>
+                    <li><a href="#">Lifestyle</a></li>
+
+
+                </ul>
+                <ul class="box">
+                    <li class="link_name" id="foot3">Legal Info</li>
+                    <li><a href="#">Licence</a></li>
+                    <li><a href="#">Terms and Conditions</a></li>
+                    <li><a href="#">Privacy Policies</a></li>
+
+                </ul>
+                <ul class="box">
+                    <li class="link_name" id="foot4">Contact</li>
+                    <li><a target="on_blank" href="tel:+919079680135">+91 9876543210</a></li>
+                    <li><a target="on_blank" href="mailto:'connectpicoindia@gmail.com'">
+                            put_our_email_here@gmail.com</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <hr style="border-color: white ;">
+        <div id="copyright">
+            <h1 id="copyright1">
+                <p>
+                    Created with <i class="fa fa-heart"></i> by BLOGOSPHERE
+                    - Click to know about us
+                    <a target="_blank" href="">here</a>.
+                </p>
+            </h1>
+        </div>
+    </footer>
+</body>
+
+</html>
