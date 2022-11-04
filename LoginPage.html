@@ -33,7 +33,7 @@
 			<h2>Blogs are whatever we make them. Defining ‘Blog’ is a fool’s errand.</h2>
 			<div class="container1" id="container1">
 				<div class="form-container1 sign-up-container1">
-					<form action="#">
+					<form action="BACKENED\signUp.php" method="post">
 						<h1>Create Account</h1>
 						<div class="social-container1">
 							<a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
@@ -41,14 +41,14 @@
 							<a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
 						</div>
 						<span>or use your email for registration</span>
-						<input type="text" placeholder="Name" />
-						<input type="email" placeholder="Email" />
-						<input type="password" placeholder="Password" />
-						<button type="button" data-bs-toggle="modal" data-bs-target="#signupModal">Sign Up</button>
+						<input type="text" name="user_name" placeholder="Name" />
+						<input type="email" name="user_email" placeholder="Email" />
+						<input type="password" name="user_password" placeholder="Password" />
+						<button name="sign_up">Sign Up</button>
 					</form>
 				</div>
 				<div class="form-container1 sign-in-container1">
-					<form action="#">
+					<form action="BACKENED\login.php" method="post">
 						<h1>Sign in</h1>
 						<div class="social-container1">
 							<a href="#" class="social"><i class="fab fa-facebook"></i></a>
@@ -56,10 +56,10 @@
 							<a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
 						</div>
 						<span>or use your account</span>
-						<input type="email" placeholder="Email" />
-						<input type="password" placeholder="Password" />
+						<input type="email" name="login_email"  placeholder="Email" />
+						<input type="password" name="login_password" placeholder="Password" />
 						<a href="#">Forgot your password?</a>
-						<button type="button" data-bs-toggle="modal" data-bs-target="#loginModal">Sign In</button>
+						<button name="signin">Sign In</button>
 					</form>
 				</div>
 				<div class="overlay-container1">
@@ -80,53 +80,17 @@
 		</div>
 	</div>
 
-		<!-- When user log-in successfully 
-		<div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
-			<div class="modal-dialog">
-				<div class="modal-content">
-					<div class="modal-header">
-						<h6 class="modal-title" id="exampleModalLabel">Log-in Successfully.</h6>
-						<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-					</div>
-					<div class="modal-body">
-						<h4>Thank You For Log-in Our Web-site..</h4>
-					</div>
-					<div class="modal-footer">
-						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		 when user sign-up successfully 
-		<div class="modal fade" id="signupModal" tabindex="-1" aria-labelledby="signupModalLabel" aria-hidden="true">
-			<div class="modal-dialog">
-				<div class="modal-content">
-					<div class="modal-header">
-						<h6 class="modal-title" id="exampleModalLabel">Sign-up Successfully.</h6>
-						<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-					</div>
-					<div class="modal-body">
-						<h4>Thank You For Sign-up Our Web-site..</h4>
-					</div>
-					<div class="modal-footer">
-						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-					</div>
-				</div>
-			</div>
-		</div> -->
-
-		<footer>
-			<p>
-				Created with <i class="fa fa-heart"></i> by BLOGOSPHERE
-				- Click to know about us
-				<a target="_blank" href="">here</a>.
-			</p>
-		</footer>
-		<script src="JS/LoginPage.js"></script>
-		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
-			integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
-			crossorigin="anonymous"></script>
+	<footer>
+		<p>
+			Created with <i class="fa fa-heart"></i> by BLOGOSPHERE
+			- Click to know about us
+			<a target="_blank" href="">here</a>.
+		</p>
+	</footer>
+	<script src="JS/LoginPage.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+		crossorigin="anonymous"></script>
 </body>
 
 </html>

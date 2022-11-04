@@ -1,0 +1,110 @@
+    // $select = mysqli_query($conn, "SELECT * FROM signup_user WHERE Email = '" . $_POST['user_email'] . "'");
+    // if (mysqli_num_rows($select)) {
+    //     exit('This email address is already used!');
+    // }
+
+    // $insertquery = "insert into blogosphere.signup_user(Name,Email,Password) values('$name','$email','$password')";
+
+
+
+
+//     try {
+//         $res = mysqli_query($connect_database, $insertquery);
+// ?>
+//         <script>
+//             alert("Successfully Sign Up");
+//         </script>
+//     <?php
+//         header('Location: UserHome.html');
+//     } catch (Exception $e) {
+//     ?>
+//         <script>
+//             alert("Email already exist");
+//         </script>
+<!-- <?php
+    }
+} -->
+
+
+
+
+
+
+<?php
+
+include 'C:\Users\DEEP KHOKHAR\Desktop\GitHub\Blogosphere\BACKENED\connectDatabase.php';
+
+$sql = "SELECT Title, Content FROM recent ORDER BY id DESC LIMIT 6";
+$result = $connect_database->query($sql);
+
+if ($result->num_rows > 0) {
+  // output data of each row
+  while($row = $result->fetch_assoc()) {
+    echo "Title: " . $row["Title"]. "<br>" . $row["Content"]. "<br>";
+  }
+} else {
+  echo "Unable to fetch data from database ....   Try Again ....";
+}
+?>
+
+
+
+
+
+
+
+
+<html>
+        <body>
+            <details> <summary>
+
+              <?php echo $row["Title"] ; ?>
+
+             </summary><br><br> <?php echo  $row["Content"] ; ?> <br>
+            </details>
+        </body>
+    </html>
+    <?php
+
+
+
+
+
+
+
+
+
+
+
+    SHOW RECENT MAIN CODE :::
+
+
+    <?php
+
+include 'C:\Users\DEEP KHOKHAR\Desktop\GitHub\Blogosphere\BACKENED\connectDatabase.php';
+
+$sql = "SELECT Title, Content FROM recent ORDER BY id DESC LIMIT 6";
+$result = $connect_database->query($sql);
+
+if ($result->num_rows > 0) {
+  // output data of each row
+  while($row = $result->fetch_assoc()) {
+    echo "<br><br>";
+    // Started Changing Huge Changes
+    ?>
+    <html>
+        <body>
+            <details> <summary>
+
+              <?php echo $row["Title"] ; ?>
+
+             </summary><br><br> <?php echo  $row["Content"] ; ?> <br>
+            </details>
+        </body>
+    </html>
+    <?php
+  }
+} else {
+  echo "Unable to fetch data from database ....   Try Again ....";
+}
+?>

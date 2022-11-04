@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
     <link rel="stylesheet"
         href="https://cdn.rawgit.com/bootstrap-wysiwyg/bootstrap3-wysiwyg/master/src/bootstrap3-wysihtml5.css">
-    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="style.css">
 
     <style>
         .btn-file {
@@ -49,7 +49,6 @@
         footer {
             width: 100%;
         }
-        
     </style>
 </head>
 
@@ -62,15 +61,17 @@
                     <div class="form-group ">
                         <label> Title Of Blog</label>
                         <div class="form-group">
-                            <input type="text" name="blog_title" class="form-control" name="title" placeholder="Title" />
+                            <input type="text" name="blog_title" class="form-control" name="title"
+                                placeholder="Title" />
                         </div>
 
                         <div class="form-group">
                             <textarea class="form-control bcontent" name="blog_content" cols="60" rows="20"></textarea>
                         </div>
                         <div class="form-group">
-                            <type type="submit" name="blog_submit" value="Submit" class="btn btn-primary form-control" /><a style="color: #fff;">
-                                Submit</a>
+                            <button name="blog_submit" value="Submit" onclick="myFunction()" class="btn btn-primary form-control"><a
+                                    style="color: #fff;">
+                                    Submit</a>
                         </div>
                 </form>
             </div>
@@ -80,7 +81,7 @@
         <div class="content">
             <div class="top">
                 <div class="logo-details">
-                    <span class="logo_name"> <img src="IMG/BLOGOSPHERE .png" height="75px"> BLOGOSPHERE </span>
+                    <span class="logo_name"> <img src="BLOGOSPHERE .png" height="75px"> BLOGOSPHERE </span>
                 </div>
 
             </div>
@@ -129,6 +130,12 @@
             </h1>
         </div>
     </footer>
+
+    <script>
+        function myFunction() {
+        alert("Blog Added Successfully");}
+    </script>
+
 </body>
 
 </html>
