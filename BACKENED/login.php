@@ -22,7 +22,7 @@ if(isset($_POST['signin'])) {
 <font color="red"><b>
 <script>
         
-        alert("Username and Id not match.       Try again..!! ");
+        alert("Username and Id not match. Try again..!! ");
     </script>
     </b>
 </font>
