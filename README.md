@@ -1,5 +1,3 @@
-# Blogosphere
- SGP
+Blogosphere - A Blogging Website
 
--- Deep joined.
--- Isha joined.
+Technologies : HTMl, CSS, Javascript, Bootstrap, PHP , MySQl
